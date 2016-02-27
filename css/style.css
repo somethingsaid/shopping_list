@@ -67,14 +67,14 @@ p {
 .done {
 	position: absolute;
 	cursor: pointer;
-	left: 55rem;
+	left: 60%;
 	color: green;
 }
 
 .delete {
 	position: absolute;
 	cursor: pointer;
-	left: 59rem;
+	left: 66%;
 	color: red;
 }
 
