@@ -40,8 +40,11 @@ p {
 
 .user-input .new {
 	border-radius: 1rem;
+	border: none;
 	background-color: gray;
 	margin-bottom: 1rem;
+	width: 100%;
+	text-align: center;
 }
 
 .user-input .clear {
