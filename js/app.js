@@ -44,5 +44,19 @@ $(document).on("click", ".item-list li .delete", function() {
 });
 
 /* Item strikethrough when clicking done, if already strikethrough, make normal */
+$(document).on("click", ".item-list li .done", function() {
+	console.log("you clicked done on item: " + this.id);
+	if ($("#" + this.id).hasClass('completed')) {
+		console.log("item" + this.id + " was already done");
+		$("ul").children("#" + this.id).css('text-decoration', 'none');
+		$("#" + this.id).removeClass('completed');
+	}
+	else {
+        console.log("item " + this.id + " is now completed");
+        $("ul").children("#" + this.id).css('text-decoration', 'line-through');
+        $("#" + this.id).addClass('completed');
+	};
+
+});
 //EOF
 });
