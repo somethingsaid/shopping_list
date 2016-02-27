@@ -1,0 +1,79 @@
+/* Initial setup */
+
+
+/* available fonts:
+font-family: 'Yeseva One', cursive; -- use for headers
+font-family: 'Merriweather Sans', sans-serif; -- main body
+*/
+
+/* Global declarations */
+* {
+	border: 1px solid red;
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: #2E334A; /*#F2D653;*/
+	color: #B7B8BF;
+	margin: auto;
+}
+
+p {
+	font-size: 1rem;
+}
+
+.heading {
+	font-family: 'Yeseva One', cursive;
+}
+
+.user-input, .footer {
+	text-align: center;
+}
+/* Header declarations */
+.header {
+	width: 100%;
+	color: #8EC9D2;
+	text-align: center;
+}
+
+/* User input box declarations */
+.user-input {
+	width: 50%;
+}
+
+.user-input .new {
+	border-radius: 1rem;
+	background-color: gray;
+	margin-bottom: 1rem;
+}
+
+.user-input .clear {
+	cursor: pointer;
+	border-radius: 1rem;
+	border: 0.1rem dotted #8EC9D2;
+	background-color: gray;
+	margin: auto;
+	width: 30%;
+	margin-bottom: 2rem;
+}
+
+/* Shopping list declarations */
+
+/* Footer declarations */
+.footer {
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	background-color: #000;
+	color: #FFF;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.footer p, .footer .heading {
+	width: 100%;
+	color: #FFF;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
