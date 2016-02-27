@@ -8,7 +8,7 @@ font-family: 'Merriweather Sans', sans-serif; -- main body
 
 /* Global declarations */
 * {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	font-family: 'Merriweather Sans', sans-serif;
 	background-color: #2E334A; /*#F2D653;*/
 	color: #B7B8BF;
@@ -35,7 +35,7 @@ p {
 
 /* User input box declarations */
 .user-input {
-	width: 50%;
+	width: 40%;
 }
 
 .user-input .new {
@@ -49,12 +49,34 @@ p {
 	border-radius: 1rem;
 	border: 0.1rem dotted #8EC9D2;
 	background-color: gray;
-	margin: auto;
-	width: 30%;
+	width: 40%;
 	margin-bottom: 2rem;
 }
 
 /* Shopping list declarations */
+.item-list {
+	list-style-type: none;
+	width: 40%;
+	padding: 0;
+}
+
+.done, .delete {
+	margin: 0 1rem 0 0;
+}
+
+.done {
+	position: absolute;
+	cursor: pointer;
+	left: 55rem;
+	color: green;
+}
+
+.delete {
+	position: absolute;
+	cursor: pointer;
+	left: 59rem;
+	color: red;
+}
 
 /* Footer declarations */
 .footer {
